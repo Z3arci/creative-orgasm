@@ -35,3 +35,5 @@ Creative orgasm -  is an encyclopedia site for novice vrontend developers who wa
 - [Z3arci](https://github.com/Z3arci)
 
 ## License
+
+The Tube Racing is open-sourced software licensed under the MIT license.
