@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-   <img src="" alt="Unity Version">
-   <img src="" alt="Game Version">
+   <img src="" alt="VisualStudiaCode">
+   <img src="" alt="2022">
    <img src="" alt="License">
 </p>
 
