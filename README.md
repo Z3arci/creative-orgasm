@@ -10,7 +10,7 @@
 
 ## About
 
-About Text Here
+creative orgasm -  is an encyclopedia site for novice vrontend developers who want to find answers to many questions, but there are none on the web, so this site was created
 
 ## Documentation
 
@@ -23,6 +23,6 @@ Documentation Here
 
 ## Developers
 
-- [Z3arci] (https://github.com/Z3arci)
+- [Z3arci](https://github.com/Z3arci)
 
 ## License
