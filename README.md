@@ -24,13 +24,11 @@ Site Structure
 
 #### Page Structure
 
-`<header class="face-section">; <div class="card">; ` - top section of various pages.
+`<header class="face-section">; <div class="card"> ` - top section of various pages.
 
-`DarkenDinosaur.Player.Character.dead` - The event is triggered when the player loses.
+`<div class="portfolio">; <main class="galary">; <div class="privie">` - section with the content of the main content of the page
 
-`DarkenDinosaur.Player.Character.crouchRunStart` - The event is triggered when you start running while crouching.
-
-`DarkenDinosaur.Player.Character.crouchRunEnd` - The event is triggered when you finish running in a crouch.
+`<div class="footer">; <div class="footer-section">` - section for contact information about the site and its owners
 
 ## Developers
 
