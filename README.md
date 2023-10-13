@@ -8,9 +8,9 @@
    <img src="" alt="License">
 </p>
 
-## About
+## About Creative orgasm
 
-creative orgasm -  is an encyclopedia site for novice vrontend developers who want to find answers to many questions, but there are none on the web, so this site was created
+Creative orgasm -  is an encyclopedia site for novice vrontend developers who want to find answers to many questions, but there are none on the web, so this site was created
 
 ## Documentation
 
