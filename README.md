@@ -16,6 +16,26 @@ creative orgasm -  is an encyclopedia site for novice vrontend developers who wa
 
 Documentation Here
 
+`DarkenDinosaur.InputSystem.InputManager.gameStart` - The event is triggered when the player clicks on the start button of the game.
+
+`DarkenDinosaur.InputSystem.InputManager.restartLevel` - The event is triggered when the player clicks the level reset button.
+
+`DarkenDinosaur.InputSystem.InputManager.jumpButtonDown` - The event is triggered when the jump button is clicked.
+
+`DarkenDinosaur.InputSystem.InputManager.crouchRunButtonDown` - The event is triggered when you click on the run crouching button.crouching down
+
+`DarkenDinosaur.InputSystem.InputManager.crouchRunButtonUp` - The event is triggered when the player releases the run button while crouching.
+
+#### Character Events
+`DarkenDinosaur.Player.Character.jump` -The event is triggered when the character starts jumping.
+
+`DarkenDinosaur.Player.Character.dead` - The event is triggered when the player loses.
+
+`DarkenDinosaur.Player.Character.crouchRunStart` - The event is triggered when you start running while crouching.
+
+`DarkenDinosaur.Player.Character.crouchRunEnd` - The event is triggered when you finish running in a crouch.
+
+
 ## Distribute
 
 - [Service Name](Page Link)
