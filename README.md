@@ -14,32 +14,23 @@ creative orgasm -  is an encyclopedia site for novice vrontend developers who wa
 
 ## Documentation
 
-Documentation Here
+Site Structure
 
-`DarkenDinosaur.InputSystem.InputManager.gameStart` - The event is triggered when the player clicks on the start button of the game.
+`page1.html; page2.html; page3.html; page4.html; page5.html ` - documents with html layout site pages.
 
-`DarkenDinosaur.InputSystem.InputManager.restartLevel` - The event is triggered when the player clicks the level reset button.
+`style.css; style2.html; style3.css; style4.css; style5.css` - documents with css layout site pages.
 
-`DarkenDinosaur.InputSystem.InputManager.jumpButtonDown` - The event is triggered when the jump button is clicked.
+`js` - using Javascript to use different effects
 
-`DarkenDinosaur.InputSystem.InputManager.crouchRunButtonDown` - The event is triggered when you click on the run crouching button.crouching down
+#### Page Structure
 
-`DarkenDinosaur.InputSystem.InputManager.crouchRunButtonUp` - The event is triggered when the player releases the run button while crouching.
-
-#### Character Events
-`DarkenDinosaur.Player.Character.jump` -The event is triggered when the character starts jumping.
+`<header class="face-section">; <div class="card">; ` - top section of various pages.
 
 `DarkenDinosaur.Player.Character.dead` - The event is triggered when the player loses.
 
 `DarkenDinosaur.Player.Character.crouchRunStart` - The event is triggered when you start running while crouching.
 
 `DarkenDinosaur.Player.Character.crouchRunEnd` - The event is triggered when you finish running in a crouch.
-
-
-## Distribute
-
-- [Service Name](Page Link)
-
 
 ## Developers
 
