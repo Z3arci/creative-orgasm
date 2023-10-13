@@ -23,6 +23,6 @@ Documentation Here
 
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
+- [Z3arci] (https://github.com/Z3arci)
 
 ## License
