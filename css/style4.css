@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --id: calc(1vw + 1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
+    --gallary-gap: calc(var(--id) * 10)
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #fafafa;
+    font-family: raleway-c;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.header-text{
+    white-space: nowrap;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 15px;
+    box-sizing: border-box;
+    margin-left: 240px;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 200px;
+    height: auto;
+    color: #fafafa;
+}
+
+.menu li {
+    margin-left: 150px;
+    height: auto;
+}
+
+.hero{
+    width: calc(var(--id) * 18);
+    left: 60vw;
+    position: absolute;
+    top: 30vh;
+}
+
+.privie-header{
+    font-size: calc(var(--id) * 2);
+    position: absolute;
+    line-height: 1;
+    bottom: 27vh;
+    margin-bottom: 200px;
+    margin-left: 150px;
+}
+
+.privie-description{
+    font-size: calc(var(--id) * 1);
+    position: absolute;
+    line-height: 1;
+    bottom: 12vh;
+    margin-bottom: 26vh;
+    margin-left: 150px;
+}
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/raleway-regular.woff2);
+}
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/outfit-regular.woff2);
+}
+
+.footer{
+    padding-top: 60px;
+
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-find{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}

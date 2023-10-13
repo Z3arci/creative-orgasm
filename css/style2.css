@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --id: calc(1vw + 1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
+    --gallary-gap: calc(var(--id) * 10)
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #fafafa;
+    font-family: raleway-c;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.header-text{
+    white-space: nowrap;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 15px;
+    box-sizing: border-box;
+    margin-left: 240px;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 150px;
+    height: auto;
+}
+
+.privie{
+    margin-top: 200px;
+    height: 34vh;
+}
+
+.hero{
+    width: calc(var(--id) * 20);
+    left: 60vw;
+    position: absolute;
+    top: 30vh;
+}
+
+.privie-header{
+    font-size: calc(var(--id) * 2);
+    position: absolute;
+    line-height: 1;
+    bottom: 27vh;
+    margin-bottom: 200px;
+    margin-left: 110px;
+    margin-right: 700px;
+}
+
+.privie-description{
+    font-size: calc(var(--id) * 1);
+    position: absolute;
+    line-height: 1;
+    bottom: 2vh;
+    margin-bottom: 15vh;
+    margin-left: 110px;
+    margin-right: 750px;
+    line-height: 1.3;
+}
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/raleway-regular.woff2);
+}
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/outfit-regular.woff2);
+}
+.galary{
+    display: flex;
+    padding: calc(var(--id) * 3) 0;
+}
+
+.galary > * {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galary__item{
+    border-radius: 10px;
+}
+
+.galary__right .galary__item {
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.galary__right .text-block__h {
+    margin-left: 320px;
+}
+
+.text-block__h{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: var(--color-header);
+    margin-bottom: 1.5rem;
+    padding-top: 220px;
+    text-decoration: #cdc6c3;
+}
+
+.text-block__p{
+    line-height: 1.75;
+    margin-left: 70px;
+    margin-top: 450px;
+    margin-right: 100px;
+}
+
+.footer{
+    padding-top: 60px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-find{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}

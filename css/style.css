@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --id: calc(1vw + 1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
+    --gallary-gap: calc(var(--id) * 10)
+}
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/raleway-regular.woff2);
+}
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/outfit-regular.woff2);
+}
+
+body{
+    background-color: #1e1e1e;
+    color: #fafafa;
+    font-family: raleway-c;
+}
+.hero{
+    width: calc(var(--id) * 20);
+    left: 60vw;
+    position: absolute;
+    top: 10vh;
+}
+
+.face-section{
+    height: 100vh;
+}
+
+.container{
+    padding: 0 10vw;
+    
+}
+
+.header-title{
+    font-size: calc(var(--id) * 8);
+    position: absolute;
+    width: min-content;
+    line-height: 1;
+    bottom: 12vh;
+    margin-bottom: 200px;
+}
+
+.header-description{
+    font-size: calc(var(--id) * 1);
+    position: absolute;
+    line-height: 1;
+    bottom: 16vh;
+    margin-bottom: 0vh;
+    margin-left: 110px;
+}
+
+.galary{
+    display: flex;
+    padding: calc(var(--id) * 5) 0;
+}
+
+.galary > * {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galary__item{
+    max-width: calc(var(--id) * 20);
+    margin-bottom: 100px;
+    max-height: 100vh;
+}
+
+.galary__right .galary__item {
+    margin: 0;
+    padding-top: 300px;
+    border-radius: 10px;
+}
+
+.galary__treisi{
+    margin-top: 400px;
+    margin-right: 50px;
+}
+
+.text-block{
+    color: var(--color-text);
+    position: relative;
+}
+
+.text-block__h{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: var(--color-header);
+    margin-bottom: 1.5rem;
+    padding-top: 220px;
+    text-decoration: #cdc6c3;
+}
+
+.text-block__p{
+    line-height: 1.75;
+}
+
+.footer{
+    padding-top: 60px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-find{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
